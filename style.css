@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,14 +22,6 @@ img {
     height: auto;
 }
 
-/* ============================================
-   COLORES ITSEC SUCRE
-   Azul institucional: #1a3a6b
-   Amarillo/dorado:    #f4c430
-   Gris plata:         #8c8c8c
-   ============================================ */
-
-/* Encabezado */
 .encabezado {
     background-color: #1a3a6b;
     color: #fff;
@@ -96,7 +88,6 @@ img {
     color: #f4c430;
 }
 
-/* Banner ITSEC */
 .banner-itsec {
     width: 100%;
     overflow: hidden;
@@ -114,7 +105,6 @@ img {
     margin: 0 auto;
 }
 
-/* Sección de inicio */
 .inicio {
     background: linear-gradient(135deg, #1a3a6b 0%, #2a5298 100%);
     padding: 50px 20px;
@@ -190,7 +180,6 @@ img {
     box-shadow: 0 6px 20px rgba(244, 196, 48, 0.5);
 }
 
-/* Sección sobre ITSEC */
 .sobre-itsec {
     padding: 50px 20px;
     max-width: 1100px;
@@ -295,7 +284,6 @@ img {
     color: #1a3a6b;
 }
 
-/* Carreras ITSEC */
 .carreras-itsec {
     margin-top: 35px;
     text-align: center;
@@ -343,7 +331,6 @@ img {
     text-align: center;
 }
 
-/* Sección de categorías / nichos */
 .categorias {
     padding: 40px 0;
     max-width: 100%;
@@ -400,7 +387,6 @@ img {
     gap: 30px;
 }
 
-/* Tarjetas */
 .tarjeta {
     background-color: #fff;
     border-radius: 12px;
@@ -458,7 +444,6 @@ img {
     box-shadow: 0 5px 15px rgba(26, 58, 107, 0.4);
 }
 
-/* Páginas de detalle - base */
 .pagina-detalle {
     display: none;
 }
@@ -572,11 +557,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
     margin-bottom: 8px;
 }
 
-/* ============================================
-   COLORES POR EMPRENDIMIENTO
-   ============================================ */
-
-/* Pollos DeliMar's - Rojo/dorado (gastronomía, pollo frito) */
 .tema-delimars .detalle-encabezado h2 { color: #c0392b; }
 .tema-delimars .detalle-nicho { background-color: #c0392b; color: #fff; }
 .tema-delimars .detalle-texto { border-top-color: #c0392b; }
@@ -584,7 +564,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-delimars .boton-volver { background-color: #c0392b; }
 .tema-delimars .boton-volver:hover { background-color: #96281b; }
 
-/* Dead Leaf - Verde oscuro (naturaleza, herbolario) */
 .tema-deadleaf .detalle-encabezado h2 { color: #1e6b35; }
 .tema-deadleaf .detalle-nicho { background-color: #1e6b35; color: #fff; }
 .tema-deadleaf .detalle-texto { border-top-color: #1e6b35; }
@@ -592,7 +571,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-deadleaf .boton-volver { background-color: #1e6b35; }
 .tema-deadleaf .boton-volver:hover { background-color: #145224; }
 
-/* Kalomai Park - Turquesa/celeste (agua, parque acuático) */
 .tema-kalomai .detalle-encabezado h2 { color: #0891b2; }
 .tema-kalomai .detalle-nicho { background-color: #0891b2; color: #fff; }
 .tema-kalomai .detalle-texto { border-top-color: #0891b2; }
@@ -600,7 +578,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-kalomai .boton-volver { background-color: #0891b2; }
 .tema-kalomai .boton-volver:hover { background-color: #066d87; }
 
-/* Grupo Sion - Dorado/marrón (bienes raíces, tierra) */
 .tema-gruposion .detalle-encabezado h2 { color: #92710c; }
 .tema-gruposion .detalle-nicho { background-color: #92710c; color: #fff; }
 .tema-gruposion .detalle-texto { border-top-color: #b8860b; }
@@ -608,7 +585,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-gruposion .boton-volver { background-color: #92710c; }
 .tema-gruposion .boton-volver:hover { background-color: #6e5509; }
 
-/* Sondogita - Rosa/magenta (joyería, elegancia) */
 .tema-sondogita .detalle-encabezado h2 { color: #9b2d86; }
 .tema-sondogita .detalle-nicho { background-color: #9b2d86; color: #fff; }
 .tema-sondogita .detalle-texto { border-top-color: #9b2d86; }
@@ -616,7 +592,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-sondogita .boton-volver { background-color: #9b2d86; }
 .tema-sondogita .boton-volver:hover { background-color: #762167; }
 
-/* Crochet - Verde pastel/lima (flores, naturaleza) */
 .tema-crochet .detalle-encabezado h2 { color: #5b8c3e; }
 .tema-crochet .detalle-nicho { background-color: #5b8c3e; color: #fff; }
 .tema-crochet .detalle-texto { border-top-color: #5b8c3e; }
@@ -624,7 +599,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-crochet .boton-volver { background-color: #5b8c3e; }
 .tema-crochet .boton-volver:hover { background-color: #436a2e; }
 
-/* Moda y Ropa - Índigo/denim (jeans, moda) */
 .tema-moda .detalle-encabezado h2 { color: #3949ab; }
 .tema-moda .detalle-nicho { background-color: #3949ab; color: #fff; }
 .tema-moda .detalle-texto { border-top-color: #3949ab; }
@@ -632,7 +606,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-moda .boton-volver { background-color: #3949ab; }
 .tema-moda .boton-volver:hover { background-color: #283593; }
 
-/* Belleza y Cosméticos - Fucsia/rosa (cosméticos) */
 .tema-belleza .detalle-encabezado h2 { color: #d63384; }
 .tema-belleza .detalle-nicho { background-color: #d63384; color: #fff; }
 .tema-belleza .detalle-texto { border-top-color: #d63384; }
@@ -640,7 +613,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-belleza .boton-volver { background-color: #d63384; }
 .tema-belleza .boton-volver:hover { background-color: #ab266a; }
 
-/* Melody - Morado/violeta (música, arte) */
 .tema-melody .detalle-encabezado h2 { color: #6a1b9a; }
 .tema-melody .detalle-nicho { background-color: #6a1b9a; color: #fff; }
 .tema-melody .detalle-texto { border-top-color: #6a1b9a; }
@@ -648,7 +620,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-melody .boton-volver { background-color: #6a1b9a; }
 .tema-melody .boton-volver:hover { background-color: #4a1270; }
 
-/* Florería Charito - Coral/rosa suave (flores, romance) */
 .tema-charito .detalle-encabezado h2 { color: #e0607e; }
 .tema-charito .detalle-nicho { background-color: #e0607e; color: #fff; }
 .tema-charito .detalle-texto { border-top-color: #e0607e; }
@@ -656,7 +627,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
 .tema-charito .boton-volver { background-color: #e0607e; }
 .tema-charito .boton-volver:hover { background-color: #c44363; }
 
-/* Galería de imágenes */
 .galeria {
     margin-top: 30px;
 }
@@ -682,7 +652,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Sección de video */
 .video-seccion {
     margin-top: 30px;
 }
@@ -695,7 +664,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
     background-color: #000;
 }
 
-/* Pie de página */
 .pie-pagina {
     background: linear-gradient(135deg, #0f2548 0%, #1a3a6b 50%, #0f2548 100%);
     color: #d6dce5;
@@ -742,7 +710,6 @@ body:has(.pagina-detalle:target) .pie-pagina {
     color: #e0b020;
 }
 
-/* Diseño responsivo */
 @media (max-width: 768px) {
     .inicio-flex {
         flex-direction: column;
