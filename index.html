@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITSEC Emprendimientos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado con navegación -->
+    <header class="encabezado">
+        <div class="encabezado-contenido">
+            <div class="logo-contenedor">
+                <img src="img/logo.png" alt="Logo ITSEC Sucre" class="logo-imagen">
+                <h1 class="logo">ITSEC Emprendimientos</h1>
+            </div>
+            <input type="checkbox" id="menuToggle" class="menu-checkbox">
+            <label for="menuToggle" class="menu-btn">&#9776;</label>
+            <nav class="navegacion" id="navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#nicho-gastronomia">Gastronomía</a>
+                <a href="#nicho-bienes-raices">Bienes Raíces</a>
+                <a href="#nicho-artesania">Artesanía</a>
+                <a href="#nicho-moda-belleza">Moda y Belleza</a>
+                <a href="#nicho-servicios">Servicios</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- PÁGINA PRINCIPAL -->
+    <main id="paginaPrincipal">
+
+        <!-- Banner ITSEC -->
+        <section class="banner-itsec">
+            <img src="img/banner-itsec.png" alt="Instituto Técnico Superior de Educación Comercial Sucre - ITSEC SUCRE" class="banner-imagen">
+        </section>
+
+        <!-- Sección de inicio -->
+        <section class="inicio" id="inicio">
+            <div class="inicio-contenido">
+                <div class="inicio-flex">
+                    <div class="inicio-texto">
+                        <h2>FEXPO ITSEC Sucre 2026</h2>
+                        <p class="inicio-subtitulo">Una Comunidad de Emprendedores</p>
+                        <p>
+                            El conocimiento es la llave que abre las puertas del futuro. En la educación superior,
+                            cada paso que das te acerca más a tus sueños y metas.
+                        </p>
+                        <a href="#categorias" class="boton-principal">Conocer nuestros emprendimientos</a>
+                    </div>
+                    <div class="inicio-imagen-fexpo">
+                        <img src="img/fexpo-itsec.png" alt="FEXPO ITSEC Sucre - Una Comunidad de Emprendedores">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección sobre ITSEC -->
+        <section class="sobre-itsec" id="sobre-itsec">
+            <div class="sobre-contenido">
+                <div class="sobre-info">
+                    <h2>Sobre ITSEC Sucre</h2>
+                    <p>
+                        El <strong>Instituto Técnico Superior de Educación Comercial Sucre</strong> (ITSEC),
+                        fundado en 1985, es una institución de educación superior ubicada en la ciudad de Sucre,
+                        Bolivia. Formamos profesionales técnicos con valores, capacidad emprendedora y compromiso
+                        con el desarrollo de nuestra región.
+                    </p>
+                    <p>
+                        Esta feria presenta los emprendimientos reales de nuestros estudiantes, organizados en
+                        5 nichos con 2 emprendimientos cada uno. Descubre la creatividad, el esfuerzo y la
+                        innovación de nuestra comunidad estudiantil.
+                    </p>
+                </div>
+                <div class="sobre-datos">
+                    <div class="dato-item">
+                        <span class="dato-numero">1,460</span>
+                        <span class="dato-texto">Estudiantes</span>
+                    </div>
+                    <div class="dato-item">
+                        <span class="dato-numero">5</span>
+                        <span class="dato-texto">Carreras</span>
+                    </div>
+                    <div class="dato-item">
+                        <span class="dato-numero">20</span>
+                        <span class="dato-texto">Docentes</span>
+                    </div>
+                    <div class="dato-item">
+                        <span class="dato-numero">15</span>
+                        <span class="dato-texto">Cursos de Capacitación</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-contacto">
+                <div class="contacto-item">
+                    <strong>Dirección:</strong> Calle Manuel Melean Nº151 esquina J. L. Martinez, Sucre - Bolivia
+                </div>
+                <div class="contacto-item">
+                    <strong>Celular:</strong> 67615791
+                </div>
+                <div class="contacto-item">
+                    <strong>Email:</strong> info@itsecsucre.edu.bo
+                </div>
+            </div>
+            <div class="carreras-itsec">
+                <h3>Nuestras Carreras</h3>
+                <div class="carreras-grid">
+                    <div class="carrera-item">
+                        <img src="img/carrera-sistemas.png" alt="Sistemas Informáticos">
+                        <span>Sistemas Informáticos</span>
+                    </div>
+                    <div class="carrera-item">
+                        <img src="img/carrera-contaduria.png" alt="Contaduría General">
+                        <span>Contaduría General</span>
+                    </div>
+                    <div class="carrera-item">
+                        <img src="img/carrera-turismo.png" alt="Turismo">
+                        <span>Turismo</span>
+                    </div>
+                    <div class="carrera-item">
+                        <img src="img/carrera-mercadotecnia.png" alt="Mercadotecnia">
+                        <span>Mercadotecnia</span>
+                    </div>
+                    <div class="carrera-item">
+                        <img src="img/carrera-secretariado.png" alt="Secretariado Ejecutivo">
+                        <span>Secretariado Ejecutivo</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de categorías -->
+        <section class="categorias" id="categorias">
+
+            <!-- NICHO 1: Gastronomía -->
+            <div class="nicho-seccion" id="nicho-gastronomia">
+                <h2 class="categorias-titulo">Gastronomía</h2>
+                <p class="nicho-descripcion">Emprendimientos dedicados a la preparación de alimentos y bebidas artesanales.</p>
+                <div class="tarjetas-contenedor">
+
+                    <div class="tarjeta">
+                        <img src="img/delimars-banner.jpeg" alt="Pollos DeliMar's" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Pollos DeliMar's</h3>
+                            <p>Pollo frito artesanal con receta propia. Un emprendimiento gastronómico apoyado por Food for the Hungry Bolivia.</p>
+                            <a href="#detalle-delimars" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta">
+                        <img src="img/deadleaf-bebida.jpeg" alt="Dead Leaf" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Dead Leaf</h3>
+                            <p>Bebidas y productos naturales artesanales con variedad de sabores. Cel: 71443926.</p>
+                            <a href="#detalle-deadleaf" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- NICHO 2: Bienes Raíces y Turismo -->
+            <div class="nicho-seccion" id="nicho-bienes-raices">
+                <h2 class="categorias-titulo">Bienes Raíces y Turismo</h2>
+                <p class="nicho-descripcion">Inversiones inmobiliarias y proyectos turísticos que transforman Bolivia.</p>
+                <div class="tarjetas-contenedor">
+
+                    <div class="tarjeta">
+                        <img src="img/kalomai-banner.jpeg" alt="Kalomai Park" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Kalomai Park</h3>
+                            <p>El parque acuático más grande de Bolivia. "La Joya Vacacional" con atracciones para toda la familia.</p>
+                            <a href="#detalle-kalomai" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta">
+                        <img src="img/gruposion-stand.jpeg" alt="Grupo Sion" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Grupo Sion</h3>
+                            <p>Inversiones inmobiliarias, terrenos y membresías. Presente en FEXPO Sucre 2026 con proyectos como La Arboleda del Este.</p>
+                            <a href="#detalle-gruposion" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- NICHO 3: Artesanía -->
+            <div class="nicho-seccion" id="nicho-artesania">
+                <h2 class="categorias-titulo">Artesanía</h2>
+                <p class="nicho-descripcion">Productos hechos a mano con creatividad, dedicación y amor por el detalle.</p>
+                <div class="tarjetas-contenedor">
+
+                    <div class="tarjeta">
+                        <img src="img/sondogita-joyeria.jpeg" alt="Sondogita Joyería" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Sondogita - Joyería Artesanal</h3>
+                            <p>Aretes, collares y anillos hechos a mano con amor. Cada pieza es única. @SONDOGITA</p>
+                            <a href="#detalle-sondogita" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta">
+                        <img src="img/crochet-girasoles.jpeg" alt="Crochet Artesanal" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Flores y Tejidos a Crochet</h3>
+                            <p>Rosas, tulipanes, girasoles y lirios tejidos a mano. Arte floral que nunca se marchita.</p>
+                            <a href="#detalle-crochet" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- NICHO 4: Moda y Belleza -->
+            <div class="nicho-seccion" id="nicho-moda-belleza">
+                <h2 class="categorias-titulo">Moda y Belleza</h2>
+                <p class="nicho-descripcion">Emprendimientos de moda, ropa y productos de belleza para verse y sentirse bien.</p>
+                <div class="tarjetas-contenedor">
+
+                    <div class="tarjeta">
+                        <img src="img/moda-stand.jpeg" alt="Moda y Ropa" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Moda y Ropa</h3>
+                            <p>Venta de jeans, ropa casual y prendas de moda para todos los estilos y ocasiones.</p>
+                            <a href="#detalle-moda" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta">
+                        <img src="img/belleza-productos.jpeg" alt="Belleza y Cosméticos" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Belleza y Cosméticos</h3>
+                            <p>Lip gloss, paletas de maquillaje, perfumes y productos de belleza para realzar tu estilo.</p>
+                            <a href="#detalle-belleza" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- NICHO 5: Servicios y Entretenimiento -->
+            <div class="nicho-seccion" id="nicho-servicios">
+                <h2 class="categorias-titulo">Servicios y Entretenimiento</h2>
+                <p class="nicho-descripcion">Servicios creativos que llenan de alegría y talento cada evento.</p>
+                <div class="tarjetas-contenedor">
+
+                    <div class="tarjeta">
+                        <img src="img/melody-banner.jpeg" alt="Melody Escuela de Canto" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Melody - Escuela de Canto</h3>
+                            <p>"Libera Tu Voz" - Escuela de canto con clases personalizadas. @Melodyschool | Cel: 63736923</p>
+                            <a href="#detalle-melody" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta">
+                        <img src="img/charito-banner.jpeg" alt="Florería Charito" class="tarjeta-imagen">
+                        <div class="tarjeta-contenido">
+                            <h3>Florería Charito</h3>
+                            <p>Arreglos florales para todo tipo de ocasión. Atención 24 hrs. Cel: 71155749 - 71159262</p>
+                            <a href="#detalle-charito" class="boton-tarjeta">Conocer más</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- PÁGINAS DE DETALLE -->
+
+    <!-- Detalle: Pollos DeliMar's -->
+    <section class="pagina-detalle tema-delimars" id="detalle-delimars">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/delimars-banner.jpeg" alt="Pollos DeliMar's" class="detalle-imagen">
+                <h2>Pollos DeliMar's</h2>
+                <span class="detalle-nicho">Gastronomía</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Pollos DeliMar's es un emprendimiento gastronómico especializado en la preparación de
+                    pollo frito artesanal con una receta única y deliciosa. Este proyecto cuenta con el apoyo
+                    de Food for the Hungry Bolivia, una organización que impulsa el desarrollo de emprendedores locales.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Pollo frito crujiente con receta propia</li>
+                    <li>Porciones generosas a precios accesibles</li>
+                    <li>Atención en eventos y ferias</li>
+                    <li>Servicio de pedidos para reuniones y celebraciones</li>
+                </ul>
+                <h3>¿Por qué elegir DeliMar's?</h3>
+                <p>
+                    La calidad de sus ingredientes y su sazón casera hacen de Pollos DeliMar's una opción
+                    favorita en las ferias de ITSEC. Su compromiso con el sabor y la atención al cliente
+                    los distingue como un emprendimiento con gran potencial de crecimiento.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/delimars-banner.jpeg" alt="Banner Pollos DeliMar's">
+                        <img src="img/delimars-mondonguito.jpeg" alt="Menú Mondonguito">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalle: Dead Leaf -->
+    <section class="pagina-detalle tema-deadleaf" id="detalle-deadleaf">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/deadleaf-logo.jpeg" alt="Dead Leaf" class="detalle-imagen">
+                <h2>Dead Leaf</h2>
+                <span class="detalle-nicho">Gastronomía</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Dead Leaf es un emprendimiento de bebidas y productos naturales artesanales que ofrece
+                    una variedad de sabores únicos. Con su estilo llamativo y sus productos de calidad,
+                    se han posicionado como una marca reconocida en las ferias locales de Sucre.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Bebidas artesanales naturales</li>
+                    <li>Variedad "7 Sabores" con mezclas únicas</li>
+                    <li>Productos naturales y herbolarios</li>
+                    <li>Atención personalizada - Cel: 71443926</li>
+                </ul>
+                <h3>¿Por qué elegir Dead Leaf?</h3>
+                <p>
+                    Su marca distintiva y la calidad de sus productos naturales hacen de Dead Leaf
+                    una propuesta diferente en el mercado. Con presentaciones atractivas y sabores
+                    innovadores, este emprendimiento apuesta por lo natural y lo artesanal.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/deadleaf-logo.jpeg" alt="Productos Dead Leaf">
+                        <img src="img/deadleaf-variedades.jpeg" alt="Variedades Dead Leaf">
+                        <img src="img/deadleaf-7sabores.jpeg" alt="Dead Leaf 7 Sabores">
+                        <img src="img/deadleaf-bebida.jpeg" alt="Bebida artesanal Dead Leaf">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalle: Kalomai Park -->
+    <section class="pagina-detalle tema-kalomai" id="detalle-kalomai">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/kalomai-banner.jpeg" alt="Kalomai Park" class="detalle-imagen">
+                <h2>Kalomai Park</h2>
+                <span class="detalle-nicho">Bienes Raíces y Turismo</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Kalomai Park es el parque acuático más grande de Bolivia, conocido como "La Joya Vacacional".
+                    Con atracciones para toda la familia, piscinas, toboganes y áreas recreativas, se ha
+                    convertido en el destino turístico favorito de la región.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Piscinas y toboganes acuáticos para todas las edades</li>
+                    <li>Áreas recreativas y zonas de descanso</li>
+                    <li>El parque acuático más grande de Bolivia</li>
+                    <li>Experiencia vacacional completa para familias</li>
+                </ul>
+                <h3>¿Por qué visitar Kalomai Park?</h3>
+                <p>
+                    Como el parque acuático más grande del país, Kalomai Park ofrece una experiencia
+                    única de diversión y relax. Su infraestructura moderna y sus múltiples atracciones
+                    lo convierten en un modelo de emprendimiento turístico exitoso en Bolivia.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/kalomai-banner.jpeg" alt="Kalomai Park banner">
+                        <img src="img/kalomai-presentacion.jpeg" alt="Kalomai Park presentación">
+                        <img src="img/kalomai-detalles.jpeg" alt="Kalomai Park detalles">
+                    </div>
+                </div>
+                <div class="video-seccion">
+                    <h3>Video</h3>
+                    <video controls class="detalle-video">
+                        <source src="img/video-kalomai.mp4" type="video/mp4">
+                        Tu navegador no soporta video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalle: Grupo Sion -->
+    <section class="pagina-detalle tema-gruposion" id="detalle-gruposion">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/gruposion-stand.jpeg" alt="Grupo Sion" class="detalle-imagen">
+                <h2>Grupo Sion</h2>
+                <span class="detalle-nicho">Bienes Raíces y Turismo</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Grupo Sion es una empresa de inversiones inmobiliarias que ofrece terrenos, membresías
+                    y proyectos residenciales. Presente en FEXPO Sucre 2026, desarrolla proyectos como
+                    La Arboleda del Este en la zona del Urubo, brindando oportunidades de inversión segura.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Venta de terrenos en ubicaciones privilegiadas</li>
+                    <li>Membresías y planes de inversión</li>
+                    <li>Proyecto "La Arboleda del Este" en el Urubo</li>
+                    <li>Asesoramiento en inversiones inmobiliarias</li>
+                </ul>
+                <h3>¿Por qué invertir con Grupo Sion?</h3>
+                <p>
+                    Con presencia en las ferias más importantes de Bolivia como FEXPO Sucre, Grupo Sion
+                    ofrece respaldo y confianza para quienes buscan invertir en bienes raíces. Sus
+                    proyectos combinan ubicación estratégica con planes accesibles.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/gruposion-stand.jpeg" alt="Grupo Sion stand">
+                        <img src="img/gruposion-presentacion.jpeg" alt="Grupo Sion presentación">
+                        <img src="img/gruposion-proyectos.jpeg" alt="Grupo Sion proyectos">
+                    </div>
+                </div>
+                <div class="video-seccion">
+                    <h3>Video</h3>
+                    <video controls class="detalle-video">
+                        <source src="img/video-gruposion.mp4" type="video/mp4">
+                        Tu navegador no soporta video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalle: Sondogita -->
+    <section class="pagina-detalle tema-sondogita" id="detalle-sondogita">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/sondogita-joyeria.jpeg" alt="Sondogita Joyería" class="detalle-imagen">
+                <h2>Sondogita - Joyería Artesanal</h2>
+                <span class="detalle-nicho">Artesanía</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Sondogita es un emprendimiento de joyería artesanal que crea piezas únicas hechas a mano
+                    con dedicación y amor. Bajo el lema "Hecho con Amor", cada arete, collar y anillo
+                    es una obra de arte que refleja la creatividad y el talento de sus creadoras.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Aretes artesanales en diversos estilos</li>
+                    <li>Collares y pulseras hechas a mano</li>
+                    <li>Anillos y accesorios únicos</li>
+                    <li>Piezas personalizadas por encargo</li>
+                </ul>
+                <h3>¿Por qué elegir Sondogita?</h3>
+                <p>
+                    Cada pieza de Sondogita es única e irrepetible. La marca @SONDOGITA se destaca por
+                    la calidad de sus materiales y el cuidado en cada detalle. Sus creaciones son perfectas
+                    para regalo o para complementar cualquier outfit con un toque artesanal.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/sondogita-joyeria.jpeg" alt="Joyería Sondogita">
+                        <img src="img/sondogita-aretes.jpeg" alt="Aretes Sondogita">
+                        <img src="img/sondogita-collares.jpeg" alt="Collares Sondogita">
+                        <img src="img/sondogita-accesorios.jpeg" alt="Accesorios Sondogita">
+                    </div>
+                </div>
+                <div class="video-seccion">
+                    <h3>Video</h3>
+                    <video controls class="detalle-video">
+                        <source src="img/video-sondogita.mp4" type="video/mp4">
+                        Tu navegador no soporta video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalle: Crochet Artesanal -->
+    <section class="pagina-detalle tema-crochet" id="detalle-crochet">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/crochet-tulipanes.jpeg" alt="Crochet Artesanal" class="detalle-imagen">
+                <h2>Flores y Tejidos a Crochet</h2>
+                <span class="detalle-nicho">Artesanía</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Este emprendimiento artesanal se especializa en la creación de flores, plantas y
+                    muñecos tejidos a crochet. Rosas, tulipanes, girasoles, lirios y margaritas cobran
+                    vida en las manos hábiles de estas artesanas, creando piezas decorativas que nunca
+                    se marchitan.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Rosas, tulipanes y girasoles tejidos a crochet</li>
+                    <li>Lirios y margaritas en macetas decorativas</li>
+                    <li>Ramos y arreglos florales que no se marchitan</li>
+                    <li>Muñecos amigurumi y figuras decorativas</li>
+                    <li>Piezas personalizadas por encargo</li>
+                </ul>
+                <h3>¿Por qué elegir flores a crochet?</h3>
+                <p>
+                    A diferencia de las flores naturales, estas creaciones duran para siempre. Cada pieza
+                    está tejida a mano con hilos de calidad, convirtiendo cada flor en un regalo único
+                    y duradero. Acepta pagos por Yape y otros medios digitales.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/crochet-girasoles.jpeg" alt="Girasoles a crochet">
+                        <img src="img/crochet-rosas.jpeg" alt="Rosas a crochet">
+                        <img src="img/crochet-tulipanes.jpeg" alt="Tulipanes a crochet">
+                        <img src="img/crochet-flores.jpeg" alt="Flores variadas">
+                        <img src="img/crochet-ramos.jpeg" alt="Ramos de crochet">
+                        <img src="img/crochet-lirios.jpeg" alt="Lirios a crochet">
+                    </div>
+                </div>
+                <div class="video-seccion">
+                    <h3>Video</h3>
+                    <video controls class="detalle-video">
+                        <source src="img/video-crochet.mp4" type="video/mp4">
+                        Tu navegador no soporta video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalle: Moda y Ropa -->
+    <section class="pagina-detalle tema-moda" id="detalle-moda">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/moda-stand.jpeg" alt="Moda y Ropa" class="detalle-imagen">
+                <h2>Moda y Ropa</h2>
+                <span class="detalle-nicho">Moda y Belleza</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Este emprendimiento de moda ofrece una selección de ropa casual y jeans de calidad
+                    para todos los estilos. Con variedad de tallas y diseños, es una opción accesible
+                    para quienes buscan renovar su guardarropa con prendas a la moda.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Jeans de diversos estilos y tallas</li>
+                    <li>Ropa casual para hombre y mujer</li>
+                    <li>Prendas de temporada a precios accesibles</li>
+                    <li>Variedad de colores y diseños</li>
+                </ul>
+                <h3>¿Por qué comprar aquí?</h3>
+                <p>
+                    La variedad de estilos y la calidad de las prendas hacen de este emprendimiento
+                    una excelente opción para encontrar ropa a buen precio. Su presencia en las ferias
+                    de ITSEC permite a los estudiantes acceder a moda de calidad.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/moda-stand.jpeg" alt="Stand de ropa">
+                        <img src="img/moda-exhibicion.jpeg" alt="Exhibición de ropa">
+                        <img src="img/moda-jeans.jpeg" alt="Jeans en exhibición">
+                        <img src="img/moda-variedad.jpeg" alt="Variedad de jeans">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalle: Belleza y Cosméticos -->
+    <section class="pagina-detalle tema-belleza" id="detalle-belleza">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/belleza-productos.jpeg" alt="Belleza y Cosméticos" class="detalle-imagen">
+                <h2>Belleza y Cosméticos</h2>
+                <span class="detalle-nicho">Moda y Belleza</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Este emprendimiento ofrece una línea completa de productos de belleza que incluye
+                    lip gloss, paletas de maquillaje, perfumes y accesorios de belleza. Todo lo que
+                    necesitas para realzar tu estilo y cuidar tu apariencia.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Lip gloss en variedad de tonos</li>
+                    <li>Paletas de maquillaje profesional</li>
+                    <li>Perfumes y fragancias</li>
+                    <li>Accesorios de belleza y cuidado personal</li>
+                </ul>
+                <h3>¿Por qué elegir estos productos?</h3>
+                <p>
+                    La variedad y calidad de los productos de belleza ofrecidos permite a cada persona
+                    encontrar lo que necesita para verse y sentirse bien. Con precios accesibles y
+                    productos de tendencia, es el emprendimiento ideal para los amantes de la belleza.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/belleza-productos.jpeg" alt="Productos de belleza">
+                        <img src="img/belleza-maquillaje.jpeg" alt="Maquillaje y perfumes">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalle: Melody -->
+    <section class="pagina-detalle tema-melody" id="detalle-melody">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/melody-banner.jpeg" alt="Melody Escuela de Canto" class="detalle-imagen">
+                <h2>Melody - Escuela de Canto</h2>
+                <span class="detalle-nicho">Servicios y Entretenimiento</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Melody es una escuela de canto con el lema "Libera Tu Voz", dedicada a desarrollar
+                    el talento vocal de sus estudiantes. Con clases personalizadas y un enfoque profesional,
+                    Melody ayuda a cada persona a descubrir y potenciar su voz.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Clases de canto personalizadas</li>
+                    <li>Técnica vocal y respiración</li>
+                    <li>Preparación para presentaciones y concursos</li>
+                    <li>Desarrollo artístico integral</li>
+                </ul>
+                <h3>Contacto</h3>
+                <p>
+                    Instagram: @Melodyschool | Celular: 63736923. Melody no solo enseña a cantar,
+                    sino que impulsa la confianza y la expresión artística de cada estudiante,
+                    convirtiéndolos en artistas completos.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/melody-banner.jpeg" alt="Melody banner">
+                        <img src="img/melody-presentacion.jpeg" alt="Melody presentación">
+
+                    </div>
+                </div>
+                <div class="video-seccion">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalle: Florería Charito -->
+    <section class="pagina-detalle tema-charito" id="detalle-charito">
+        <div class="detalle-contenido">
+            <a href="#inicio" class="boton-volver">&#8592; Volver al inicio</a>
+            <div class="detalle-encabezado">
+                <img src="img/charito-banner.jpeg" alt="Florería Charito" class="detalle-imagen">
+                <h2>Florería Charito</h2>
+                <span class="detalle-nicho">Servicios y Entretenimiento</span>
+            </div>
+            <div class="detalle-texto">
+                <p>
+                    Florería Charito es un emprendimiento dedicado a crear arreglos florales para todo
+                    tipo de ocasión. Con atención las 24 horas y presencia en PedidosYa, ofrece un
+                    servicio completo y profesional para bodas, cumpleaños, graduaciones y eventos especiales.
+                </p>
+                <h3>¿Qué ofrece?</h3>
+                <ul>
+                    <li>Arreglos florales para todo tipo de ocasión</li>
+                    <li>Ramos de novia y decoración de eventos</li>
+                    <li>Atención 24 horas</li>
+                    <li>Delivery a través de PedidosYa</li>
+                    <li>Diseños personalizados por encargo</li>
+                </ul>
+                <h3>Contacto</h3>
+                <p>
+                    WhatsApp: 71155749 - 71159262 | Facebook: Floreria Charito | Disponible en PedidosYa.
+                    La dedicación y el arte floral de Charito hacen de cada arreglo una expresión
+                    de cariño y belleza para cualquier momento especial.
+                </p>
+                <div class="galeria">
+                    <h3>Galería</h3>
+                    <div class="galeria-grid">
+                        <img src="img/charito-banner.jpeg" alt="Banner Florería Charito">
+                        <img src="img/charito-stand.jpeg" alt="Stand en feria">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="pie-pagina">
+        <img src="img/logo.png" alt="Logo ITSEC Sucre" class="pie-logo">
+        <p class="pie-nombre">ITSEC Emprendimientos</p>
+        <p class="pie-frase">Transformando ideas en oportunidades - Feria 2026</p>
+        <p class="pie-anio">&copy; 2026 Instituto Técnico Superior de Educación Comercial Sucre</p>
+        <a href="#inicio" class="pie-enlace">Volver al inicio</a>
+    </footer>
+
+</body>
+</html>
